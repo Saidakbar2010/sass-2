@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+header .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .nav-links .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .nav-links .title {
+  font-family: sans-serif;
+}
+
+header .nav-links .logo_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+header .nav-links .request-beta {
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border: 2px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  size: 16px;
+  margin-bottom: 100px;
+  color: #666;
+  width: 717px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro .request-beta {
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.intro .how-it-works {
+  color: #000;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.intro .benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  color: #000;
+}
+
+.intro .benefits div {
+  font-size: 16px;
+}
+
+.network {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.network .map-graphic {
+  position: relative;
+  height: 300px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.network .map-graphic .person {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.network .map-graphic .person .cap {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.network .map-graphic .person .package {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 24px;
+  font-size: 14px;
+}
+
+.network .network-description {
+  font-size: 20px;
+  color: #333;
+}
+
+/* style.scss */
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  width: 1000px;
+  height: 1000px;
+  margin-top: -260px;
+}
+
+.network {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
+.network h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #A6A6A6;
+}
+
+.network p {
+  font-size: 61px;
+  width: 1028px;
+  height: 316px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.network .network-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.network .network-items img {
+  width: 817px;
+  height: 385px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+/*# sourceMappingURL=style.css.map */
